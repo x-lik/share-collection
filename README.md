@@ -8,6 +8,6 @@ A platform dedicated to sharing functions created by x-lik third-party. Here, yo
 
 We encourage everyone to actively share and progress together. Whether it's code snippets, plugins, tools, or tutorials, as long as it's helpful for x-lik third-party, we welcome you to share.
 
-你可以选择提交PR交由管理员审核，或直接申请加入仓库，进企鹅群联系群主 996217034。
+你可以选择 [提交PR](https://help.github.com/articles/creating-a-pull-request/) 为项目作贡献。
 
-You can choose to submit the PR for admin review.
+You can choose to [create a PR](https://help.github.com/articles/creating-a-pull-request/) for this project.
