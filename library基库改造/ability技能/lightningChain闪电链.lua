@@ -26,7 +26,7 @@ end
     options = {
         sourceUnit 伤害来源
         targetUnit 目标单位
-        lightningKind 闪电效果类型(可选 详情查看 lightning.type)
+        lightningKind 闪电效果类型(可选 详情查看 lightning.kind)
         qty = 1, --传递的最大单位数（可选，默认1）
         rate = 0, --增减率%（可选，默认不增不减为0，范围建议[-100,100]）
         radius = 600, --寻找下一目标的作用半径范围（可选，默认600）
@@ -51,7 +51,7 @@ function ability.lightningChain(options)
     end
     local damage = options.damage or 0
     if (damage > 0) then
-        local lightningKind = options.lightningKind or lightning.type.thunder
+        local lightningKind = options.lightningKind or lightning.kind.thunder
         local qty = options.qty or 1
         local rate = 100
         local index = 1
